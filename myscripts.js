@@ -1,4 +1,4 @@
-
+     boot();
       var c=1;
       var showing_favourites=0;
       var member=JSON.parse(localStorage.getItem("member"));
@@ -237,4 +237,3 @@
         }
         localStorage.setItem("member",JSON.stringify(member));
       }
-      boot();
