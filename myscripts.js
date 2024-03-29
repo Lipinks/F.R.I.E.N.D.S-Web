@@ -6,7 +6,7 @@
       //member=null;
       if (member==null)
         member=[{name:"Shraddha",ilink:"https://instagram.com/shraddhakapoor/?hl=en",tlink:"https://twitter.com/shraddhakapoor?lang=en",flink:"https://www.facebook.com/ShraddhaKapoor/",like:0},{name:"Rachel",ilink:"https://www.instagram.com/jenniferaniston/?hl=en",tlink:"https://twitter.com/officialaniston?lang=en",flink:"https://www.facebook.com/JenniferAniston/",like:0},{name:"Ross",ilink:"https://www.instagram.com/_schwim_/?hl=en",tlink:"https://en.wikipedia.org/wiki/David_Schwimmer",flink:"https://en.wikipedia.org/wiki/David_Schwimmer",like:0},{name:"Joey",ilink:"https://www.instagram.com/mleblanc/?hl=en",tlink:"https://twitter.com/matt_leblanc?lang=en",flink:"https://en.wikipedia.org/wiki/Matt_LeBlanc",like:0},{name:"chandler",ilink:"https://www.instagram.com/mattyperry4/?hl=en",tlink:"https://twitter.com/matthewperry?lang=en",flink:"https://www.facebook.com/MatthewPerry/",like:0},{name:"Monica",ilink:"https://www.instagram.com/courteneycoxofficial",tlink:"https://twitter.com/courteneycox?lang=en",flink:"https://en.wikipedia.org/wiki/Courteney_Cox",like:0},{name:"Phoebe",ilink:"https://www.instagram.com/lisakudrow/?hl=en",tlink:"https://twitter.com/lisakudrow?lang=en",flink:" ",like:0}];
-      
+      boot();
       function add_member(name,index)
       {
         let s=">🤍";
