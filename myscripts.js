@@ -1,4 +1,4 @@
-     boot();
+
       var c=1;
       var showing_favourites=0;
       var member=JSON.parse(localStorage.getItem("member"));
@@ -128,7 +128,7 @@
               <button class="name" style="border:none;padding:5px 10px 5px 10px;cursor:pointer;box-shadow: 1px 1px 4px rgb(90, 90, 90);" onclick="remove_data();">REMOVE</button>
           </div>
           <div class="popup" style="display:flex;align-items:center;justify-content:center; font-weight:bold;font-size:19px;"></div>
-        </div`;
+        </div>`;
       }
       function boot()
       {
