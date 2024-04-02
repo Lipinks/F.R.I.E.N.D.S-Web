@@ -34,19 +34,19 @@
             <div class="web">
               <img src="images/instagram.png" class="sitepic">
               <div class="sitename">
-                <a href="`+member[index].ilink+`" target="_blank">Instagram</a>
+                <a href="https://instagram.com/`+member[index].ilink+`" target="_blank">Instagram</a>
               </div>
             </div>
             <div class="web">
               <img src="images/twitter.png" class="sitepic">
               <div class="sitename">
-                <a href="`+member[index].tlink+`" target="_blank">Twitter</a>
+                <a href="https://twitter.com/`+member[index].tlink+`" target="_blank">Twitter</a>
               </div>
             </div>
             <div class="web">
               <img src="images/facebook.png" class="sitepic">
               <div class="sitename">
-                <a href="`+member[index].flink+`" target="_blank">Facebook / Wiki</a>
+                <a href="https://www.facebook.com/`+member[index].flink+`" target="_blank">Facebook / Wiki</a>
               </div>
             </div>
           </div>
