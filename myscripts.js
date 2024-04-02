@@ -132,7 +132,7 @@
       }
       function boot()
       {
-        for(let i=0;i<(member.length);i++)
+        for(let i=1;i<(member.length);i++)
           add_member(member[i].name,i);
         add_member_section();
       }
