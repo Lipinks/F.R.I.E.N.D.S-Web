@@ -34,19 +34,19 @@
             <div class="web">
               <img src="images/instagram.png" class="sitepic">
               <div class="sitename">
-                <a href="https://instagram.com/`+member[index].ilink+`" target="_blank">Instagram</a>
+                <a href="`+member[index].ilink+`" target="_blank">Instagram</a>
               </div>
             </div>
             <div class="web">
               <img src="images/twitter.png" class="sitepic">
               <div class="sitename">
-                <a href="https://twitter.com/`+member[index].tlink+`" target="_blank">Twitter</a>
+                <a href="`+member[index].tlink+`" target="_blank">Twitter</a>
               </div>
             </div>
             <div class="web">
               <img src="images/facebook.png" class="sitepic">
               <div class="sitename">
-                <a href="https://www.facebook.com/`+member[index].flink+`" target="_blank">Facebook / Wiki</a>
+                <a href="`+member[index].flink+`" target="_blank">Facebook / Wiki</a>
               </div>
             </div>
           </div>
@@ -206,7 +206,7 @@
       function upload_data()
       {
         let last_index = member.length;
-        member[last_index]={name:document.querySelector('.name_upload').value,ilink:document.querySelector('.instaid_upload').value,tlink:document.querySelector('.twitterid_upload').value,flink:document.querySelector('.facebookid_upload').value,like:0};
+        member[last_index]={name:document.querySelector('.name_upload').value,ilink:"https://instagram.com/"+document.querySelector('.instaid_upload').value,tlink:document.querySelector('.twitterid_upload').value,flink:document.querySelector('.facebookid_upload').value,like:0};
         document.querySelector('.main').innerHTML=``;
         localStorage.setItem("member",JSON.stringify(member));
         boot();
