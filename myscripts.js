@@ -230,7 +230,7 @@
         {
           document.querySelector('.password').value=``;
           document.querySelector('.name_remove').value=``;
-          document.querySelector('.popup').innerHTML=`Wrong Password &#128405 
+          document.querySelector('.popup').innerHTML=`Wrong Password 
           <button onclick="document.querySelector('.popup').innerHTML='';" style="margin-top:3px;margin-left:5px;cursor:pointer;border:0px;font-size:16px;" class="name">
             OK
           </button>`;
